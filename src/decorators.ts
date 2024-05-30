@@ -27,7 +27,7 @@ getters / setters (bem pouco usado)
 
 function setIpServidor(novoIp: string){
     return (target: any) => {//target e o construtor da nossa classe
-        return class extends target{
+        return class extends target{ 
             ip = novoIp
         }
     }
